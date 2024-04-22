@@ -6,7 +6,7 @@
 #    By: diatco <diatco@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/15 16:33:58 by diatco            #+#    #+#              #
-#    Updated: 2024/04/19 13:55:47 by diatco           ###   ########.fr        #
+#    Updated: 2024/04/22 15:22:15 by diatco           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,7 +32,6 @@ $(SERVER):	$(SRC)
 
 $(CLIENT):	$(SRC)
 	$(CC) $(CFLAGS) -o $(CLIENT) client.c minitalk_utils.c
-
 
 clean:
 	$(RM) $(OBJ)

@@ -6,7 +6,7 @@
 /*   By: diatco <diatco@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 16:32:06 by diatco            #+#    #+#             */
-/*   Updated: 2024/04/16 18:37:02 by diatco           ###   ########.fr       */
+/*   Updated: 2024/04/22 14:52:25 by diatco           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,4 +85,14 @@ char	*ft_itoa(int nbr)
 		i--;
 	}
 	return (number);
+}
+
+int	ft_strlen(const char *str)
+{
+	int	i;
+
+	i = 0;
+	while (str[i])
+		i++;
+	return (i);
 }
